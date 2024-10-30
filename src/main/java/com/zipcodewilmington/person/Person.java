@@ -11,6 +11,8 @@ public class Person {
     private String state;
 
     public Person() {
+        this.name = "";
+        this.age = Integer.MAX_VALUE;
     }
 
     public Person(int age) {
